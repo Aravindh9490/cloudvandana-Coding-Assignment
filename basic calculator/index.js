@@ -34,22 +34,7 @@ function operate(op) {
 }
 
 function calculate() {
-  // let secondOperand = parseFloat(currentOperand);
-  // let result;
-  // switch (operator) {
-  //   case '+':
-  //     result = firstOperand + secondOperand;
-  //     break;
-  //   case '-':
-  //     result = firstOperand - secondOperand;
-  //     break;
-  //   case '*':
-  //     result = firstOperand * secondOperand;
-  //     break;
-  //   case '/':
-  //     result = firstOperand / secondOperand;
-  //     break;
-  // }
+ 
   result=eval(display.value)
   display.value = result;
   currentOperand = result.toString();
